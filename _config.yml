@@ -13,7 +13,9 @@ theme:
   # Header and footer text
   header_text: >
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
+<a class="button" href="/2014/11/30/sample-post.html">
+          Continue reading
+        </a>
      <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
   footer_text: >
