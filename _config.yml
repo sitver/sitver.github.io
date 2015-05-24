@@ -5,28 +5,28 @@ url: "http://sitver.github.io" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
+  title: Geeky
   avatar: avatar.png
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Read about the future, before it happens." # used by search engines
 
   # Header and footer text
   header_text: >
-     <p>Thousands of Geeks love reading Geeky. You will too.</p>
-     <a class="button" style = "text-align: center; background: #1ABC9C; border: 1px solid #1ABC9C; color: #fff; text-decoration: none;" href="/2014/11/29/feature-images.html"> Try Geeky</a>
+     <p>If You Love Technology, You'll Love Geeky</p>
+     <a class="button" style = "text-align: center; background: #1ABC9C; border: 1px solid #1ABC9C; color: #fff; text-decoration: none;" href="/2014/11/29/feature-images.html"> Join Geeky</a>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+   Powered by <a href="http://jekyllrb.com">Jekyll</a>. Created by Michael Sitver.
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: directcontact@appstorechronicle.com # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: "sitver"
   flickr:
-  github: "rohanchandra/type-theme"
+  github: 
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -36,7 +36,7 @@ theme:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: "msitver"
   wordpress:
   youtube:
 
