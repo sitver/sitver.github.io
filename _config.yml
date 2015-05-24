@@ -12,7 +12,7 @@ theme:
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>This has been changed, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 <a class="button" href="/2014/11/30/sample-post.html">
           Continue reading
         </a>
