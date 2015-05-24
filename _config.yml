@@ -13,7 +13,7 @@ theme:
   # Header and footer text
   header_text: >
      <p>This has been changed, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-     <a class="button" href="/2014/11/29/feature-images.html"> Continue reading</a>
+     <a class="button" style = "background: #1ABC9C; border: 1px solid #1ABC9C; color: #fff; text-decoration: none;" href="/2014/11/29/feature-images.html"> Continue reading</a>
      <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
   footer_text: >
