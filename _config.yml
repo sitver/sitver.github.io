@@ -5,7 +5,7 @@ url: "http://geeky.io" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Geeky
+  title: "Geeky"
   avatar: avatar.png
   gravatar: # Email MD5 hash
   description: "Read about the future, before it happens." # used by search engines
