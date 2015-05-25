@@ -47,6 +47,12 @@ img{
     align-content: center;
     align:center !important;
 }
+.mail:hover{
+  background: #0000CD !important;
+  background-color: #0000CD !important;
+  color: white !important;
+  border-color:#0000CD !important;
+}
 </style>
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
   <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
@@ -65,7 +71,7 @@ img{
       <a onClick="_gaq.push(['_trackEvent', 'Share', 'Reddit', '{{ page.title }}']);" class="button reddit" style = "color:#ff4500" href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Reddit">Reddit This</a>
   </div>
 </article>
-
+<a onClick="_gaq.push(['_trackEvent', 'Share', 'Email To A Friend', '{{ page.title }}']);" class="button mail" style = "color:#0000CD" href="mailto:?Subject=Interesting%20Article&Body=I%20thought%20you%20might%20like%20this%20article%20%7B%7B%20site.url%20%7D%7D%7B%7B%20page.url%20%7D%7D" rel="nofollow" target="_blank" title="Email To A Friend">Email To A Friend</a>
 <!-- Disqus -->
 {% if site.theme.disqus_shortname %}
 <div class="comments">
