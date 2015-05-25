@@ -64,8 +64,8 @@ img{
 
 		<ul style = "float:center !important; align: center !important; text-align: center !important;">
 			<li style = "float:center !important; align: center !important; text-align: center !important;"><a onClick="_gaq.push(['_trackEvent', 'Share', 'Twitter', '{{ page.title }}']);" class="button twitter" style = "color:#55acee" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=msitver&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Tweet this</a></li>
-			<li><a onClick="_gaq.push(['_trackEvent', 'Share', 'Facebook', '{{ page.title }}']);" class="fb button" style = "color:#3b5998;" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Share To FB</a></li>
-			<li><a onClick="_gaq.push(['_trackEvent', 'Share', 'Reddit', '{{ page.title }}']);" class="button reddit" style = "color:#ff4500" href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Reddit">Reddit This</a></li>
+			<li style = "float:center !important; align: center !important; text-align: center !important;"><a onClick="_gaq.push(['_trackEvent', 'Share', 'Facebook', '{{ page.title }}']);" class="fb button" style = "color:#3b5998;" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Share To FB</a></li>
+			<li style = "float:center !important; align: center !important; text-align: center !important;"><a onClick="_gaq.push(['_trackEvent', 'Share', 'Reddit', '{{ page.title }}']);" class="button reddit" style = "color:#ff4500" href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Reddit">Reddit This</a></li>
 			{% for page in site.pages %}
 			{% if page.title and page.hide != true %}
 			<!--<li>
