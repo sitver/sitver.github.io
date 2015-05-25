@@ -1,4 +1,51 @@
 <header class="site-header">
+<style>
+.share-page {
+		text-align: center;
+		background: $secondary-color;
+		color: $light-color;
+		padding: 8px 15px;
+		border-radius: 5px;
+		margin: 1.5 * $spacing-unit 0;
+
+		a {
+				font-weight: 700;
+				color: #fff;
+				margin-left: 10px;
+
+				&:hover {
+						border-bottom: 1px dashed #fff;
+				}
+		}
+}
+a.button:hover{
+
+}
+.twitter:hover{
+	background: #55acee !important;
+	background-color: #55acee !important;
+	color: white !important;
+	border-color:#55acee !important;
+}
+.fb:hover{
+	background: #3b5998 !important;
+	background-color: #3b5998 !important;
+	color: white !important;
+	border-color:#3b5998 !important;
+}
+.reddit:hover{
+	background: #ff4500 !important;
+	background-color: #ff4500 !important;
+	color: white !important;
+	border-color:#ff4500 !important;
+}
+img{
+		width: 80%;
+		height: 80%;
+		align-content: center;
+		align:center !important;
+}
+</style>
 	<div class="branding">
 		<!--{% if site.theme.gravatar %}
 		<a href="{{ site.baseurl }}/">
@@ -10,15 +57,21 @@
 		</a>
 		{% endif %} -->
 		<h1 class="site-title">
-			<a style = "color:red;font-weight:bold; font-size: 35pt;size: 35pt" href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
+			<a style = "color:red;font-weight:bold; font-size: 35pt;size: 35pt;" href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
 		</h1>
 	</div>
 	<nav class="site-nav">
+		<div class="share-page">
+				Share &rarr;
+				<a onClick="_gaq.push(['_trackEvent', 'Share', 'Twitter', '{{ page.title }}']);" class="button twitter" style = "color:#55acee" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=msitver&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Tweet this</a>
+				<a onClick="_gaq.push(['_trackEvent', 'Share', 'Facebook', '{{ page.title }}']);" class="fb button" style = "color:#3b5998" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Share To FB</a>
+				<a onClick="_gaq.push(['_trackEvent', 'Share', 'Reddit', '{{ page.title }}']);" class="button reddit" style = "color:#ff4500" href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Reddit">Reddit This</a>
+		</div>
 		<ul>
 			{% for page in site.pages %}
 			{% if page.title and page.hide != true %}
 			<li>
-				<a style = "" class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+				<a style = ""class="page-link" href="{{ page.url | prepend: site.baseurl }}">
 					{{ page.title }}
 				</a>
 			</li>
