@@ -32,15 +32,15 @@
       padding: 0;
       list-style: none;
       line-height: 1.5;
-      float: center; /*used to be right */
-      text-align: center; /*used to be right */
+      float: right; /*used to be right */
+      text-align: right; /*used to be right */
     }
     li {
       display: inline;
       float: left;
       margin-right: 0.4em;
     }
-    @media (max-width: 1100px) {
+    @media (max-width: 400px) {
       ul {
         display: inline-block;
         float: left;
