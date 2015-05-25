@@ -12,7 +12,8 @@ theme:
 
   # Header and footer text
   header_text: >
-     <p>If You Love Technology, You'll Love Geeky</p>
+      <h1>The Geeky Weekly</h1>
+     <p>All you need to know about technology, delivered once weekly</p>
      <a class="button" style = "text-align: center; background: #1ABC9C; border: 1px solid #1ABC9C; color: #fff; text-decoration: none;" href="/2014/11/29/feature-images.html"> Join Geeky</a>
   header_text_feature_image:
   footer_text: >
