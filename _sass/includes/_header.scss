@@ -32,8 +32,8 @@
       padding: 0;
       list-style: none;
       line-height: 1.5;
-      float: right;
-      text-align: right;
+      float: center; /*used to be right */
+      text-align: center; /*used to be right */
     }
     li {
       display: inline;
