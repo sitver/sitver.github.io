@@ -26,7 +26,7 @@ theme:
   dribbble:
   facebook: "sitver"
   flickr:
-  github: 
+  github:
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -41,7 +41,7 @@ theme:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-23964836-21"# Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
 
