@@ -12,6 +12,7 @@ theme:
 
   # Header and footer text
   header_text: >
+     <h2>Hi</h2>
      <p>If You Love Technology, You'll Love Geeky</p>
      <a class="button" style = "text-align: center; background: #1ABC9C; border: 1px solid #1ABC9C; color: #fff; text-decoration: none;" href="/2014/11/29/feature-images.html"> Join Geeky</a>
   header_text_feature_image:
