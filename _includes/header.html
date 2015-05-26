@@ -1,13 +1,5 @@
 <header class="site-header">
-<script src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js"></script>
-<script type="text/javascript">
-var myElement = document.querySelector(".site-title");
-// construct an instance of Headroom, passing the element
-var headroom  = new Headroom(myElement);
-// initialise
-headroom.init();
-</script>
+
 <style>
 .share-page {
 		text-align: center;
@@ -59,6 +51,10 @@ img{
 	background: white;
 	background-color: white;
 	width: 100%;
+	top: 0 px;
+	-ms-transform: translate(0px,-100px); /* IE 9 */
+   	-webkit-transform: translate(0px,-100px); /* Safari */
+    transform: translate(0px,-100px);
 }
 </style>
 	<div class="branding">
