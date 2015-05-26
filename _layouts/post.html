@@ -76,6 +76,9 @@ img{
   <div class="share-page">
   <a onClick="_gaq.push(['_trackEvent', 'Share', 'Email To A Friend', '{{ page.title }}']);" class="button mail" style = "color:#0000CD;  align:center !important; float:center !important;" href="mailto:?Subject=Interesting%20Article&Body=I%20thought%20you%20might%20like%20this%20article%20%7B%7B%20site.url%20%7D%7D%7B%7B%20page.url%20%7D%7D" rel="nofollow" target="_blank" title="Email To A Friend">Email To A Friend</a>
   </div>
+  <div class="call-out" >
+    {{ site.theme.header_text }}
+  </div>
   <h4 style = "font-size: 30pt; size: 30pt;">Hey You! Read These Next:</h4>
   <ul>
   {% for post in site.posts limit:3 %}
