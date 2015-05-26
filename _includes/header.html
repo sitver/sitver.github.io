@@ -1,4 +1,13 @@
 <header class="site-header">
+<script src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js"></script>
+<script type="text/javascript">
+var myElement = document.querySelector(".site-title");
+// construct an instance of Headroom, passing the element
+var headroom  = new Headroom(myElement);
+// initialise
+headroom.init();
+</script>
 <style>
 .share-page {
 		text-align: center;
