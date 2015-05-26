@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sample post
+title: "The Gambler's Guide To iOS 9"
 published: true
 ---
 
