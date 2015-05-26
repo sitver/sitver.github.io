@@ -4,12 +4,11 @@ layout: default
 
 <div class="home">
   {% if site.theme.header_text %}
-  <div class="call-out" 
-  style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
+  <div class="call-out" >
     {{ site.theme.header_text }}
   </div>
   {% endif %}
-
+<!-- If you want auto image style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')" -->
   <div class="posts">
     {% for post in paginator.posts %}
     <div class="post-teaser">
