@@ -63,7 +63,7 @@ img{
 		transform: translate(0px,-60px);
 }
 </style>
-	<div class="branding">
+	<!--<div class="branding">
 		<!--{% if site.theme.gravatar %}
 		<a href="{{ site.baseurl }}/">
 			<img class="avatar" src="https://secure.gravatar.com/avatar/{{ site.theme.gravatar }}?s=100" alt=""/>
@@ -72,11 +72,11 @@ img{
 		<a href="{{ site.baseurl }}/">
 			<img class="avatar" src="/img/{{ site.theme.avatar }}" alt=""/>
 		</a>
-		{% endif %} -->
+		{% endif %} --
 		<h1 class="site-title" style = "float:center !important; align: center !important; text-align: center !important;">
 			<a style = "color:red;font-weight:bold; font-size: 35pt;size: 35pt;" href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
 		</h1>
-	</div>
+	</div> -->
 	<div class = "stufftofloat">
 	<nav class="site-nav" style = "float:center !important; align: center !important; text-align: center !important;">
 
@@ -97,5 +97,19 @@ img{
 			<!--{% include icons.html %}-->
 		</ul>
 	</nav>
+</div>
+<div class="branding">
+	<!--{% if site.theme.gravatar %}
+	<a href="{{ site.baseurl }}/">
+		<img class="avatar" src="https://secure.gravatar.com/avatar/{{ site.theme.gravatar }}?s=100" alt=""/>
+	</a>
+	{% elsif site.theme.avatar %}
+	<a href="{{ site.baseurl }}/">
+		<img class="avatar" src="/img/{{ site.theme.avatar }}" alt=""/>
+	</a>
+	{% endif %} -->
+	<h1 class="site-title" style = "float:center !important; align: center !important; text-align: center !important;">
+		<a style = "color:red;font-weight:bold; font-size: 35pt;size: 35pt;" href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
+	</h1>
 </div>
 </header>
