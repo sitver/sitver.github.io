@@ -54,6 +54,11 @@ img{
 		align-content: center;
 		align:center !important;
 }
+.stufftofloat{
+	position:fixed;
+	background: white;
+	background-color: white;
+}
 </style>
 	<div class="branding">
 		<!--{% if site.theme.gravatar %}
@@ -69,6 +74,7 @@ img{
 			<a style = "color:red;font-weight:bold; font-size: 35pt;size: 35pt;" href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
 		</h1>
 	</div>
+	<div class = "stufftofloat">
 	<nav class="site-nav" style = "float:center !important; align: center !important; text-align: center !important;">
 
 		<ul style = "float:center !important; align: center !important; text-align: center !important;">
@@ -88,4 +94,5 @@ img{
 			<!--{% include icons.html %}-->
 		</ul>
 	</nav>
+</div>
 </header>
