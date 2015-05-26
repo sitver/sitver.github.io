@@ -14,7 +14,7 @@ theme:
   header_text: >
      <h2 class = "shadow">Tech moves fast. So do we.</h2>
      <!-- <p class = "optin">If You Love Technology, You'll Love Geeky</p> -->
-     <a class="button shadow" style = "font-weight: bold; background: #ff4500 !important; background-color: #ff4500 !important; color: white !important; border-color:#ff4500 !important;text-align: center; background: #1ABC9C; border: 1px solid #1ABC9C; color: #fff; text-decoration: none;" href="/2014/11/29/feature-images.html"> Sign Up</a>
+     <a class="button shadow-light" style = "font-weight: bold; background: #ff4500 !important; background-color: #ff4500 !important; color: white !important; border-color:#ff4500 !important;text-align: center; background: #1ABC9C; border: 1px solid #1ABC9C; color: #fff; text-decoration: none;" href="/2014/11/29/feature-images.html"> Sign Up</a>
   header_text_feature_image: https://c1.staticflickr.com/9/8833/17918805988_0fb1a34de6_b.jpg
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a>. Created by Michael Sitver.
