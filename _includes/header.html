@@ -52,9 +52,15 @@ img{
 	background-color: white;
 	width: 100%;
 	top: 0 px;
-	-ms-transform: translate(0px,-100px); /* IE 9 */
-   	-webkit-transform: translate(0px,-100px); /* Safari */
-    transform: translate(0px,-100px);
+	animation-delay: 3s;
+	animation-name: floatup;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+@keyframes floatup{
+	-ms-transform: translate(0px,-60px); /* IE 9 */
+		-webkit-transform: translate(0px,-60px); /* Safari */
+		transform: translate(0px,-60px);
 }
 </style>
 	<div class="branding">
