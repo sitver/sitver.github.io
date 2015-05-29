@@ -69,12 +69,12 @@ img{
 
   <div class="share-page">
       Share &rarr;
-      <a onClick="_gaq.push(['_trackEvent', 'Share', 'Twitter', '{{ page.title }}']);" class="button twitter" style = "color:#55acee" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=msitver&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Tweet this</a>
-      <a onClick="_gaq.push(['_trackEvent', 'Share', 'Facebook', '{{ page.title }}']);" class="fb button" style = "color:#3b5998" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Share To FB</a>
-      <a onClick="_gaq.push(['_trackEvent', 'Share', 'Reddit', '{{ page.title }}']);" class="button reddit" style = "color:#ff4500" href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Reddit">Reddit This</a>
+      <a onClick="analytics.track('Tweeted', {Shared: {{ page.title }} });" class="button twitter" style = "color:#55acee" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=msitver&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Tweet this</a>
+      <a onClick="analytics.track('Facebooked', {Shared: {{ page.title }} });" class="fb button" style = "color:#3b5998" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Share To FB</a>
+      <a onClick="analytics.track('Reddited', {Shared: {{ page.title }} });" class="button reddit" style = "color:#ff4500" href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Reddit">Reddit This</a>
   </div>
   <div class="share-page">
-  <a onClick="_gaq.push(['_trackEvent', 'Share', 'Email To A Friend', '{{ page.title }}']);" class="button mail" style = "color:#0000CD;  align:center !important; float:center !important;" href="mailto:?Subject=Interesting%20Article&Body=I%20thought%20you%20might%20like%20this%20article%20%7B%7B%20site.url%20%7D%7D%7B%7B%20page.url%20%7D%7D" rel="nofollow" target="_blank" title="Email To A Friend">Email To A Friend</a>
+  <a onClick="analytics.track('Emailed To Friend', {Shared: {{ page.title }} });;" class="button mail" style = "color:#0000CD;  align:center !important; float:center !important;" href="mailto:?Subject=Interesting%20Article&Body=I%20thought%20you%20might%20like%20this%20article%20%7B%7B%20site.url%20%7D%7D%7B%7B%20page.url%20%7D%7D" rel="nofollow" target="_blank" title="Email To A Friend">Email To A Friend</a>
   </div>
   <div class="call-out" >
     {{ site.theme.header_text }}
