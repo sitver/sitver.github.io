@@ -73,4 +73,4 @@ gems:
 
 fb_admins:          http://facebook.com/sitver
 fb_appid:           393073530881085
-avatar:             img/profilepic.jpg
+avatar:             /img/profilepic.jpg
