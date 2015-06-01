@@ -1,15 +1,7 @@
 ---
 layout: post
 title: How To Track Your Friends Like Big Brother (Using only Facebook)
-thumbnail: /img/server-room.jpg/
-page.thumbnail: /img/server-room.jpg/
-suggested_tweet:
-  url:                  'http://davidensinger.com/'
-  via:                  'davidensinger'
-  text:                 'Hello world'
-  in_reply_to:          331434728957833218
-  hashtags:             ['Jekyll', 'Twitter']
-  related:              ['davidensinger', 'richhollis', '2john4tv']
+thumbnail: img/profilepic.jpg
 ---
 <!-- thumbnail: /img/server-room.jpg
 page.thumbnail: /img/server-room.jpg -->
@@ -26,19 +18,3 @@ page.thumbnail: /img/server-room.jpg -->
 <p><b class="p1">Facebook does allow you to turn this feature off, but they aren&#39;t nearly vocal enough about how much data they&#39;re collecting, and who has access to it. It&#39;s time for us to have an open conversation of what&#39;s OK to share automatically, and what is not.</b></p>
 
 <p class="p1">To try it for yourself, download Aran Khanna&#39;s <a href = "https://chrome.google.com/webstore/detail/marauders-map/mliofombcghaamgjkmmmmlepkiacdhkh">chrome extension here</a> or read his detailed blog post <a href = "https://medium.com/@arankhanna/stalking-your-friends-with-facebook-messenger-9da8820bd27d">here</a></p>
-{% if page.suggested_tweet %}
-  <div class="entry-meta-suggested-tweet">
-    <h3 class="suggested-tweet-title">Spread the Word</h3>
-    <a href="{% suggested_tweet %}" class="suggested-tweet-bubble">
-      {% if page.suggested_tweet.text != empty %}
-        <span class="suggested-tweet-text">{{ page.suggested_tweet.text }}</span>
-      {% endif %}
-      {% if page.suggested_tweet.hashtags != empty %}
-        {% for hashtag in page.suggested_tweet.hashtags %}
-          <span class="suggested-tweet-hashtag">#{{ hashtag }}</span>
-        {% endfor %}
-      {% endif %}
-    </a>
-    <p class="suggested-tweet-link"><a href="{% suggested_tweet %}" class="icon-left icon-twitter">Click to Tweet</a> <small>(you may edit before posting.)</small></p>
-  </div>
-{% endif %}
