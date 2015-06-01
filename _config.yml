@@ -70,3 +70,10 @@ sass:
 # GEMS
 gems:
   - jekyll-sitemap
+suggested_tweet:
+  url:                  'http://davidensinger.com/'
+  via:                  'davidensinger'
+  text:                 'Hello world'
+  in_reply_to:          331434728957833218
+  hashtags:             ['Jekyll', 'Twitter']
+  related:              ['davidensinger', 'richhollis', '2john4tv']
