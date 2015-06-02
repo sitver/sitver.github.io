@@ -4,7 +4,8 @@ published: true
 title: Sign The Petition &#58; Keep Netflix Ad-free!
 thumbnail: /img/netflix-television.jpg
 ---
-
+## Update: Netflix Founder/CEO Reed Hastings posted to Facebook "No advertising coming onto Netflix. Period.
+Just adding relevant cool trailers for other Netflix content you are likely to love." so I guess we won (or there was never really a battle to begin with).
 #### Netflix is testing in-video advertising in a few select regions, with plans to subject all users to advertising. Let's [say no](https://www.change.org/p/netflix-say-no-to-commercials), before it's too late.
 
 ![Netflix]({{site.baseurl}}/img/netflix-television.jpg)
