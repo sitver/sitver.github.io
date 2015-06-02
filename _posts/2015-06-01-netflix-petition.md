@@ -12,7 +12,7 @@ thumbnail: /img/netflix-television.jpg
 
 ![Netflix]({{site.baseurl}}/img/netflix-television.jpg)
 
-**I admit it. I watch too much Netflix.** My Law-And-Order addiction is not an efficient use of my time, but at least I enjoy it. Video ads waste time, without providing any pleasure. They're clutter, and they're the exact thing I'm trying to avoid as a Netflix subscriber, and I'm confident that many others feel the same way.
+**I admit it. Testing. I watch too much Netflix.** My Law-And-Order addiction is not an efficient use of my time, but at least I enjoy it. Video ads waste time, without providing any pleasure. They're clutter, and they're the exact thing I'm trying to avoid as a Netflix subscriber, and I'm confident that many others feel the same way.
 
 We're not paying Netflix for the privilege of watching TV. Plenty of places online offer similar content. We're paying for ad-free, hassle-free TV and movies.
 
