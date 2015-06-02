@@ -5,7 +5,7 @@ published: true
 
 #### Netflix is testing in-video advertising in a few select regions, with plans to subject all users to advertising. Let's [say no](https://www.change.org/p/netflix-say-no-to-commercials), before it's too late.
 
-![Image](x-note://blank/img/netflix-television.jpg)
+![Netflix]({{site.baseurl}}/img/netflix-television.jpg)
 
 **I admit it. I watch too much Netflix.** My Law-And-Order addiction is not an efficient use of my time, but at least I enjoy it. Video ads waste time, without providing any pleasure. They're clutter, and they're the exact thing I'm trying to avoid as a Netflix subscriber, and I'm confident that many others feel the same way.
 
