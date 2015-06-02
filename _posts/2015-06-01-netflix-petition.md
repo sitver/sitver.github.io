@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Sign The Petition: Keep Netflix Ad-free!
+title: Sign The Petition- Keep Netflix Ad-free!
 thumbnail: /img/netflix-television.jpg
 ---
 
