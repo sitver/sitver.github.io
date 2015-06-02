@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 ---
+
 
 #### Netflix is testing in-video advertising in a few select regions, with plans to subject all users to advertising. Let's [say no](https://www.change.org/p/netflix-say-no-to-commercials), before it's too late.
 
