@@ -12,9 +12,10 @@ theme:
 
   # Header and footer text
   header_text: >
-     <h2 class = "shadow">Tech moves fast. So do we.</h2>
-     <!-- <p class = "optin">If You Love Technology, You'll Love Geeky</p> -->
-     <a class="button shadowlight" style = "font-weight: bold; background: #ff4500 !important; background-color: #ff4500 !important; color: white !important; border-color:#ff4500 !important;text-align: center; background: #1ABC9C; border: 1px solid #1ABC9C; color: #fff; text-decoration: none;" href="https://sitver.typeform.com/to/qYoZrT"> Sign Up</a>
+     <h2 class = "shadow">Welcome To The Hacker Community's Homepage.</h2>
+     <!-- <p class = "optin">Welcome To The Hacker Community's Homepage</p> -->
+     <a class="button shadowlight" style = "font-weight: bold; background: #ff4500 !important; background-color: #ff4500 !important; color: white !important; border-color:#ff4500 !important;text-align: center; background: #1ABC9C; border: 1px solid #1ABC9C; color: #fff; text-decoration: none;" href="https://sitver.typeform.com/to/qYoZrT"> Follow Via Email</a>
+     <a class="button shadowlight" style = "font-weight: bold; background: #0F5B95 !important; background-color: #0F5B95 !important; color: white !important; border-color:#0F5B95 !important;text-align: center; background: #0F5B95; border: 1px solid #1ABC9C; color: #fff; text-decoration: none;" href="https://twitter.com/intent/user?screen_name=msitver"> Follow Via Twitter</a>
   header_text_feature_image: https://c1.staticflickr.com/9/8833/17918805988_0fb1a34de6_b.jpg
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a>. Created by Michael Sitver.
