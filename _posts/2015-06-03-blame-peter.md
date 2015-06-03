@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: These Might Be The Best App Release Notes...Ever
-thumbnail: /img/medium-release-notes.png/
+thumbnail: img/medium-release-notes.png
 ---
 ###Bugs suck, but they're inevitable in any complex application.
 
@@ -11,7 +11,7 @@ Sometimes you need a good scapegoat though. Someone to blame, to let out your fr
 **Medium, the blogging platform founded by Ev Williams, is placing the blame for its latest buggy iOS update on an ex-employee named "Peter".**
 
 These are the release notes for Medium's latest update, released yesterday:
-![Medium Release Notes](/img/medium-release-notes.png/)
+![Medium Release Notes](img/medium-release-notes.png)
 <a class="button shadowlight" style = "font-weight: bold; background: #55acee !important; background-color: #55acee !important; color: white !important; border-color:#55acee !important;text-align: center; background: #55acee; border: 1px solid #1ABC9C; color: #fff; text-decoration: none;" href="https://twitter.com/intent/user?screen_name=msitver"> Follow Via Twitter</a>
 
 [What's New:
