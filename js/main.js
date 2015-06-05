@@ -18,8 +18,8 @@
 
     // katex.render(textToRender, katexElement);
   //   element.parentNode.insertBefore(katexElement, element);
-  }
-});
+  //}
+//});
 
 
 $(document).ready(function() {
