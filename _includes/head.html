@@ -18,7 +18,6 @@
 	<meta property="og:site_name" content="{{ site.title }}">
 
 	<meta property="og:locale" content="en_US">
-	<meta property="fb:app_id" content="393073530881085" />
 
 	{% if page.date %}
 	  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
@@ -49,7 +48,7 @@
 	{% if site.theme.google_fonts %}
 	<link href="//fonts.googleapis.com/css?family={{ site.theme.google_fonts }}" rel="stylesheet" type="text/css">
 	{% endif %}
-
+	<script type="text/javascript" src="js/abalytics.js"></script>
 	<!-- KaTeX -->
 	{% if site.theme.katex %}
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
@@ -97,4 +96,20 @@ $('.button').on('click', function() {
 <!-- Open graph -->
 <!-- Open graph -->
 <script src='//cdn.goroost.com/roostjs/d9hnfggelyfuxzjnwyskalkts0me4eea' async></script>
+ABalytics.init({
+		click_button_intro: [
+				{
+						name: 'ab_showheader',
+						"header_ab1": "<div class="call-out" >{{ site.theme.header_text }}</div>"
+				},
+				{
+						name: 'ab_hideheader',
+						"header_ab1": ""
+				}
+		]},5);
+
+// ga('send', 'pageview');
+
+_gaq.push(['_trackPageview']);
+</script>
 </head>
