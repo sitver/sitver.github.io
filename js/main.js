@@ -24,7 +24,7 @@
 
 $(document).ready(function() {
     // Test if we're doing a/b testing on tl;dr
-    if ((abTestingId == 'tldr') && !abTestingValue) {
+    if ((abTestingId == 'Subscribehead') && !abTestingValue) {
         $('#Subscribehead').remove();
     }
 }
