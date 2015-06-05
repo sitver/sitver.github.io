@@ -6,18 +6,18 @@ Array.prototype.forEach.call(elements, function(element) {
      var textToRender = element.innerText || element.textContent;
 
      // Create span for KaTeX
-     var katexElement = document.createElement('span');
+    // var katexElement = document.createElement('span');
 
      // Support inline and display math
-     if (element.type.indexOf('mode=display') != -1){
-       katexElement.className += "math-display";
-       textToRender = '\\displaystyle {' + textToRender + '}';
-     } else {
-       katexElement.className += "math-inline";
-     }
+     //if (element.type.indexOf('mode=display') != -1){
+      // katexElement.className += "math-display";
+      // textToRender = '\\displaystyle {' + textToRender + '}';
+    // } else {
+    //   katexElement.className += "math-inline";
+    // }
 
-     katex.render(textToRender, katexElement);
-     element.parentNode.insertBefore(katexElement, element);
+    // katex.render(textToRender, katexElement);
+  //   element.parentNode.insertBefore(katexElement, element);
   }
 });
 
