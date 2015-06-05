@@ -24,8 +24,10 @@
 
 $(document).ready(function() {
     // Test if we're doing a/b testing on tl;dr
-    if ((abTestingId == 'Subscribehead') && !abTestingValue) {
+    if ((abTestingId == 'Subscribehead') && !abTestingValue)) {
       document.getElementById('subscribehead').style.display = "none";
       console.log("Removed")
+    }else{
+      console.log("Still there.")
     }
 }

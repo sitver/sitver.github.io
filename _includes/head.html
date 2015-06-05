@@ -79,11 +79,11 @@ analytics.page()
 var abTestingId = '{{ page.abtesting[0] }}';
 var abTestingSlot = {{ page.abtesting[1] }};
 var abTestingValue = Math.random() < 0.5;
-$(document).ready(function() {
-    // Test if we're doing a/b testing on tl;dr
-    if ((abTestingId == 'Subscribehead') && !abTestingValue) {
-			document.getElementById('subscribehead').style.display = "none"
-    }
+if ((abTestingId == 'Subscribehead') && !abTestingValue)) {
+	document.getElementById('subscribehead').style.display = "none";
+	console.log("Removed")
+}else{
+	console.log("Still there.")
 }
   </script>
 {% endif %}
