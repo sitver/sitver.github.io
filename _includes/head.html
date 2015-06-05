@@ -48,7 +48,6 @@
 	{% if site.theme.google_fonts %}
 	<link href="//fonts.googleapis.com/css?family={{ site.theme.google_fonts }}" rel="stylesheet" type="text/css">
 	{% endif %}
-	<script type="text/javascript" src="js/abalytics.js"></script>
 	<!-- KaTeX -->
 	{% if site.theme.katex %}
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
@@ -96,6 +95,8 @@ $('.button').on('click', function() {
 <!-- Open graph -->
 <!-- Open graph -->
 <script src='//cdn.goroost.com/roostjs/d9hnfggelyfuxzjnwyskalkts0me4eea' async></script>
+<script type="text/javascript" src="js/abalytics.js"></script>
+<script type="text/javascript" src="/js/abalytics.js"></script>
 <script type="text/javascript">
 ABalytics.init({
 		click_button_intro: [
@@ -112,5 +113,10 @@ ABalytics.init({
 // ga('send', 'pageview');
 
 _gaq.push(['_trackPageview']);
+</script>
+<script type="text/javascript">
+  window.onload = function() {
+    ABalytics.applyHtml();
+  };
 </script>
 </head>
