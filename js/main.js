@@ -22,7 +22,7 @@
 //});
 
 
-$(document).ready(function(){
+
     // Test if we're doing a/b testing on tl;dr
     if ((abTestingId == 'Subscribehead') && (!abTestingValue)) {
       document.getElementById('subscribehead').style.display = "none";
@@ -30,4 +30,3 @@ $(document).ready(function(){
     }else{
       console.log("Still there.")
     }
-})

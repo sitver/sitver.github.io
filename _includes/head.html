@@ -79,7 +79,7 @@ analytics.page()
 var abTestingId = '{{ page.abtesting[0] }}';
 var abTestingSlot = {{ page.abtesting[1] }};
 var abTestingValue = Math.random() < 0.5;
-if ((abTestingId == 'Subscribehead') && !abTestingValue)) {
+if ((abTestingId == 'Subscribehead') && (!abTestingValue)) {
 	document.getElementById('subscribehead').style.display = "none";
 	console.log("Removed")
 }else{
