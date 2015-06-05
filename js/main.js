@@ -20,3 +20,11 @@ Array.prototype.forEach.call(elements, function(element) {
      element.parentNode.insertBefore(katexElement, element);
   }
 });
+
+
+$(document).ready(function() {
+    // Test if we're doing a/b testing on tl;dr
+    if ((abTestingId == 'tldr') && !abTestingValue) {
+        $('#Subscribehead').remove();
+    }
+}
