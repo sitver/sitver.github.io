@@ -1,9 +1,9 @@
-var elements = document.getElementsByTagName('script')
+//var elements = document.getElementsByTagName('script')
 
-Array.prototype.forEach.call(elements, function(element) {
-  if (element.type.indexOf('math/tex') != -1) {
+//Array.prototype.forEach.call(elements, function(element) {
+//  if (element.type.indexOf('math/tex') != -1) {
      // Extract math markdown
-     var textToRender = element.innerText || element.textContent;
+  //   var textToRender = element.innerText || element.textContent;
 
      // Create span for KaTeX
     // var katexElement = document.createElement('span');
