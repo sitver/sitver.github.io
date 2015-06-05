@@ -25,6 +25,7 @@
 $(document).ready(function() {
     // Test if we're doing a/b testing on tl;dr
     if ((abTestingId == 'Subscribehead') && !abTestingValue) {
-        $('#Subscribehead').remove();
+      document.getElementById('subscribehead').style.display = "none";
+      console.log("Removed")
     }
 }
